@@ -1,0 +1,25 @@
+section .portfoli-me{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section .portfoli-me .portfolio-inner{
+    width: 30%; 
+    background-color: #fff;
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin-bottom: 3rem;
+    border: 1px solid #ccc;
+}
+section .portfoli-me .portfolio-inner img{
+    width: 100%;
+    display: block;
+}
+section .portfoli-me .portfolio-inner strong{
+    color: #fa6a6a;
+    margin: 0.5rem 0;
+    display: block;
+}
+section .portfoli-me .portfolio-inner p{
+   font-size: 1.75rem; 
+}

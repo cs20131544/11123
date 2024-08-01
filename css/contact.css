@@ -1,0 +1,74 @@
+.contact-me{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-me .left{
+    width: 30%;
+}
+.contact-me .left .card{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-me .left .card .icon i{
+    font-size: 2rem;
+}
+.contact-me .left .card .info-text{
+    margin-left: 15px;
+}
+.contact-me .right{
+    width: 65%;
+
+}
+.contact-me .right .card2{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+.contact-me .right .card2 .card2-ele{
+    padding: 1rem;
+}
+.contact-me .right .card2 .card2-ele p{
+    
+}
+.contact-me .right .card2 input{
+    border: 1px solid #ccc;
+    width: 100%;
+    display: block;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.contact-me .right .card2 input:focus{
+    border: 1px soild #719ece;
+    box-shadow:  0 0 10px #719ece;
+}
+.contact-me .right .card2 textarea:focus{
+    border: 1px soild #719ece;
+    box-shadow:  0 0 10px #719ece;
+}
+.contact-me .right .card2 textarea{
+    border: 1px solid #ccc;
+    outline: none;
+    resize: none;
+    width: 100%;
+    display: block;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.contact-me .right .card2 button{
+    width: 95%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    
+    background-color: orange;
+    color: white;
+}
